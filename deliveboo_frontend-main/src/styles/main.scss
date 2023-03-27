@@ -1,0 +1,56 @@
+@use "bootstrap/scss/bootstrap";
+@use "@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100;200;300;400;500;600;700;800&display=swap');
+:root{
+    --india-green: #318411ff;
+    --golden-gate-bridge: #ef5117ff;
+    --sunglow: #f9ca30ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Bangla', sans-serif;
+}
+
+.logo {
+    display: block;
+    width: 120px;
+    height: 60px;
+}
+
+
+.footer {
+    background-color: rgb(56, 55, 55);
+    margin-bottom: -1rem;
+    margin-top: 2rem;
+}
+
+
+.zoom {
+    transition: transform .2s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(0.9);
+  }
+
+.green{
+    color: #318411ff;
+}
+
+.orange{
+    color: #ef5117ff;
+}
+
+.border-orange{
+    border-color: #ef5117ff;
+}
+
+.bg-color-green{
+    background-color: #318411ff;
+}
